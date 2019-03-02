@@ -1,0 +1,51 @@
+#preloader{position:fixed; top:0; left:0; right:0; bottom:0; background-color:#fff; z-index:99999}
+#loading{width:200px; height:200px; position:absolute; left:50%; top:50%;background-image:url('kmg.gif');background-repeat:no-repeat;background-position:center; margin:-100px 0 0 -100px}
+.working{background:url('select2-spinner.gif') no-repeat right center !important;}
+.in-title{color: #FFFFFF;background-color: #3690FF;padding: 1px 1px 1px 10px;font-size: 12pt;}
+thead tr{font-size: 8pt;}
+tbody tr{font-size: 8pt;}
+.widget-toolbar .btn{vertical-align: unset;margin: 3px;}
+.lap-title{font-size: 11pt;font-weight: bold;padding: 6px 6px 6px 0px;margin: 6px 0px;float: left;}
+.box-sales{border-bottom: 2px solid #d1d1d1;}
+form {margin: 0px 0px 0px 20px !important;}
+.width-notif{min-width: 40px;text-align: center;font-size: 18px !important;}
+.content_notif{font-size: 12px;color: #367FE3;padding-left: 10px;}
+.login-layout .widget-box {visibility: hidden;position: absolute;overflow: hidden;width: 100%;border-bottom: 0;box-shadow: none;padding: 0px;-moz-transform: scale(0,1) translate(-150px);-webkit-transform: scale(0,1) translate(-150px);-o-transform: scale(0,1) translate(-150px);-ms-transform: scale(0,1) translate(-150px);transform: scale(0,1) translate(-150px);margin-top: 30%;
+margin-bottom: 50%;border-radius: 10px 10px 10px 10px;-webkit-box-shadow: 0 0 15px #AAAAAA;-moz-box-shadow: 0 0 15px #AAAAAA;box-shadow: 0 0 15px #AAAAAA;}
+.nav-list > li > a {display: block;height: 38px;line-height: 36px;padding: 0 16px 0 7px;background-color: #f9f9f9;color: #464646;text-shadow: none !important;font-size: 8pt;text-decoration: none;}
+.nav-list > li.active > a, .nav-list > li.active > a:hover, .nav-list > li.active > a:focus, .nav-list > li.active > a:active {background-color: #fff;color: #0b6cbc;font-weight: bold;font-size:8pt;}
+.nav-list > li .submenu > li > a {display: block;position: relative;color: #616161;padding: 7px 0 8px 37px;margin: 0;border-top: 1px dotted #e4e4e4;border-top-width: 1px;border-top-style: dotted;
+border-top-color: rgb(228, 228, 228);font-size: 8pt;}
+.label-danger{background-color: #d15b47 !important;}
+.label-tabel {border-radius: 5px !important;text-shadow: none;font-size: 12px !important;font-weight: normal !important;padding: 4px 29px 3px !important;background-color: #abbac3!important;}
+.label-tabel-success{background-color: #51b427!important;}
+.label-tabel-danger{background-color: #aa1010!important;}
+.label-tabel-warning{background-color: #b99d0c!important;}
+.total_harga{font-size: 30px !important;font-weight: bold;}
+.btn-set{height: 100% !important;}
+.form-horizontal .control-group {margin-bottom:5px !important;*zoom: 1;}
+.form-vertical .control-label {float: left;padding-top: 5px;}
+label.control-label-vertical {float: left !important;margin-right: 10px !important;padding-top: 5px !important;}
+.btn-mini-vertical {padding: 0 5px;line-height: 22px;border-width: 2px;font-size: 12px;
+margin-top: -10px;height: 30px;}
+.space{margin-top: 3px;margin-bottom: 3px;}
+.td-actions a:hover{text-decoration: none;}
+.nav-list>li>.submenu li>.submenu>li a {font-size: 11px !important;color: #777 !important;}
+.nav-list>li>.submenu li>.submenu>li a:hover {color: #5a62cd !important;text-decoration: none !important;}
+.modal-body-m{max-height: 500px;position: relative;overflow-y: auto;}
+.required{font-weight: bold;color:rgb(255,18,18);}
+.label-header {font-size: 14px;font-weight: normal;margin-right: 10px;}
+.control-group {margin-bottom: 0px;}
+.input-text-right{text-align: right !important;}
+.label {font-size: 9px !important;padding: 1px 5px 3px 5px !important;}
+.sub1{margin-left: 15px !important;}
+
+
+@media only screen and (max-width: 434px) {
+.navbar .pull-right>li>.dropdown-menu, .navbar .nav>li>.dropdown-menu.pull-right {right: 90px !important;left: -30px !important;}    
+.navbar .brand {font-size: 15px !important;font-weight: 400;} 
+.img-mobile{display: none !important;}
+.widget-toolbar > .dropdown > .dropdown-menu::after, .dropdown-menu.dropdown-caret::after {border-bottom: 0px solid #FFF !important;border-left: 1px solid transparent !important;border-right: 1px solid transparent !important;content: "";display: inline-block;left: 10px;position: absolute;top: -6px;}
+thead tr{font-size: 7pt;}
+tbody tr{font-size: 7pt;}
+}

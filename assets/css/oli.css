@@ -1,0 +1,73 @@
+.navbar .navbar-inner {
+    background: #d4b223;
+}
+
+.ace-nav>li.light-blue {
+    background: #b89917;
+}
+
+.ace-nav>li.purple {
+    background: #735705;
+}
+
+.breadcrumb>li>a {
+    color: #735705;
+}
+a {
+    color: #735705;
+    text-decoration: none;
+}
+
+.nav-list > li.active > a, .nav-list > li.active > a:hover, .nav-list > li.active > a:focus, .nav-list > li.active > a:active {
+    background-color: #939393;
+    color: #fff;
+}
+
+.nav-list>li>a:hover {
+    background-color: #939393;
+    color: #fff;
+}
+
+.nav-list>li.open>a {
+    background-color: #fafafa;
+    color: #777;
+}
+
+.nav-list>li>a:hover {
+    background-color: #FFF;
+    color: #777;
+}
+
+.nav-list>li>a:focus {
+    background-color: #f9f9f9;
+    color: #777;
+}
+
+a:hover, a:focus {
+    color: #777;
+    text-decoration: underline;
+}
+
+.nav-list>li .submenu>li>a:hover {
+    text-decoration: none;
+    color: #777;
+}
+
+.nav-list>li a:hover>.arrow, .nav-list>li.active>a>.arrow, .nav-list>li.open>a>.arrow {
+    color: #fff;
+}
+
+.nav-list li.active>a:after {
+    border: 8px solid transparent ;
+    border-width: 14px 10px;
+    border-right-color: #444444;
+}
+
+.nav-list>li.active:after {
+    border-right: 2px solid #444444;
+}
+
+.table-header {
+    background-color: #d4b223;
+    color: #FFF;
+}
